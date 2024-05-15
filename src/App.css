@@ -1,0 +1,31 @@
+.App {
+  min-width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.metaMaskError {
+  height: 36px;
+  padding: 16px;
+  color: #EFEFEF;
+  background-color: transparent;
+}
+
+.providers {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  gap: 1em;
+
+  padding: 0.6em 1.2em;
+}
+
+.providers button {
+  width: 12em;
+}
+
+.providers button img {
+  width: 2em;
+}
